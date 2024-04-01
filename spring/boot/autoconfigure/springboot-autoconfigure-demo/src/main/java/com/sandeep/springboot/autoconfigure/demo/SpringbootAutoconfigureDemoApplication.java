@@ -25,7 +25,7 @@ public class SpringbootAutoconfigureDemoApplication {
 		};
 		// If autoconfiguration worked, should see something like this in the console:
 		// Database bean found: org.davidmoten.rxjava3.jdbc.Database@332f25c8
-		// If autoconfiguration worked, should see bean not found error.
+		// If autoconfiguration did not work, should see bean not found error.
 	}
 
 }
